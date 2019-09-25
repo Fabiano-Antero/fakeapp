@@ -1,12 +1,58 @@
+<ion-content>
+  <div class="topdiv">
+    <ion-grid>
+      <ion-row id="logo">
+        <ion-col size="12">
+          <ion-img src="../../../assets/user.png" style="width: 80px"></ion-img>
+        </ion-col>
+        <ion-col size="12">
+          <span class="LogoName">
+            Nova conta
+          </span>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+      </ion-col>
+    </ion-row>
+    <ion-row class="contentArea">
+      <ion-col size="12">
+        <ion-label class="texName" position="floating">Nome de usuário</ion-label>
+        <ion-input class="imputLS"></ion-input>
+      </ion-col>
+      <ion-col size="12">
+        <ion-label class="texName" position="floating">Matrícula</ion-label>
+        <ion-input class="imputLS" type="number" maxlength=""></ion-input>
+      </ion-col>
+      <ion-col size="12">
+        <ion-label class="texName" position="floating">E-mail</ion-label>
+        <ion-input class="imputLS" type="email"></ion-input>
+      </ion-col>
+      <ion-col size="12">
+        <ion-label class="texName" position="floating">Senha</ion-label>
+        <ion-input class="imputLS" type="password" maxlength="8"></ion-input>
+      </ion-col>
+      <ion-col size="12">
+        <ion-label class="texName" position="floating">Confirmar senha</ion-label>
+        <ion-input class="imputLS" type="password" maxlength="8"></ion-input>
+      </ion-col>
+      <ion-col size="12" class="cad">
 
- 
-
-   <ion-content padding>
-     <ion-button expand="block" routerLink="/login" routerDirection="forward">
-         Cancelar
-       </ion-button>
-       <ion-button expand="block" routerLink="/login" routerDirection="forward">
-         Cadastrar
-       </ion-button>
-   </ion-content>
- 
+      </ion-col>
+      <ion-col size="6">
+        <ion-button class="corbt" size="small" shape="round" routerLink="/login" routerDirection="forward">
+          Cancelar
+        </ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-button shape="round" size="small" class="corbt ion-padding-start" routerLink="/login"
+          routerDirection="forward">
+          Cadastrar
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

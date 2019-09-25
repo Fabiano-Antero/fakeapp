@@ -1,5 +1,10 @@
-<ion-content padding>
+<ion-content>
   <ion-grid>
+    <ion-row id="logo">
+      <ion-col >
+        <ion-img src="../../../assets/factory.png" style="width: 80px"></ion-img>
+      </ion-col>
+    </ion-row>
     <ion-row class="contentArea">
       <ion-col size="12">
         <ion-label class="texName" position="floating">Login</ion-label>
@@ -15,16 +20,16 @@
         <ion-checkbox class="corbt" color="dark" checked="false"></ion-checkbox>
         <ion-label class="textCheck " position="floating"> Lembrar minha senha!</ion-label>
       </ion-col>
-      <ion-col>
-        <ion-button shape="round" size="small" class="corbt" routerLink="/menu/first">Login</ion-button>
+      <ion-col size="4">
+        <ion-button shape="round" size="small" class="corbt ion-padding-start" routerLink="/menu/first">Login</ion-button>
       </ion-col>
-      <ion-col size="12">
-        <span class="texName">
-            Esqueci minha senha
+      <ion-col size="12" class="eqsenha cadastropdding">
+        <span>
+          Esqueci minha senha
         </span>
       </ion-col>
-      <ion-col>
-        <ion-button shape="round" expand="block" class="corbt cadastropdding" routerLink="/menu/second">Cadastre-se
+      <ion-col >
+        <ion-button shape="round" expand="block" class="corbt" routerLink="/menu/second">Cadastre-se
         </ion-button>
       </ion-col>
     </ion-row>

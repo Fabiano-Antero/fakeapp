@@ -1,0 +1,62 @@
+/*
+*/
+#logo{
+    padding: 40px 0px 20px 130px;
+}
+.LogoName{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#385959;
+}
+.contentArea{
+    padding: 10px 25px 0px 25px;
+}
+.texName{
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+}
+
+.imputLS{
+    background-color: whitesmoke;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+.textCheck{
+    size: 5px;
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14.3px;
+    padding: 0px 0px 0px 5px;
+}
+.topdiv{
+    
+    background-color: whitesmoke;
+    width: auto;
+    /* definimos a altura do box */
+    height:auto;
+    /* definimos a cor de fundo do box */
+
+    /* definimos o quão arredondado irá ficar nosso box */
+    border-radius: 0px 0px 30px 40px;
+}
+ion-content {
+    --border-radius: 10px;
+    --background: linear-gradient(to bottom right, #385959, #111C26) !important;
+}
+.cadastropdding{
+    
+    margin-block-start: 25%;
+}
+.cad{
+    padding: 15px 0px 0px 0px;
+}
+.corbt{
+    --background: linear-gradient(to bottom right, #385959,#385959) !important;
+}
+

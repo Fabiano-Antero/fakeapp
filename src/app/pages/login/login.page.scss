@@ -1,7 +1,18 @@
+/*
+*/
+#logo{
+    padding: 80px 0px 0px 130px;
+}
 .contentArea{
-    padding: 200px 25px 0px 25px;
+    padding: 50px 25px 0px 25px;
 }
 .texName{
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+}
+.eqsenha{
+    text-align: center;
     font-size: 15px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: whitesmoke;
@@ -13,7 +24,7 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
     opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+    filter: alpha(opacity=50); 
 }
 
 .textCheck{
@@ -23,13 +34,14 @@
     font-size: 14.3px;
     padding: 0px 0px 0px 5px;
 }
+
 ion-content {
     
     --background: linear-gradient(to bottom right, #385959, #111C26) !important;
 }
 .cadastropdding{
-
- margin-block-start: 50%;
+    padding-bottom: 10%;
+    margin-block-start: 25%;
 }
 .corbt{
     --background: linear-gradient(to bottom right, #385959,#385959) !important;
